@@ -48,8 +48,8 @@ function redenrizar (array){
 
         const tr = document.createElement('tr');
         tr.innerHTML =
-            `<td>${nombre}</td>
-     <td>${apellido}</td>
+            `<td style=background:#b2ffea>${nombre}</td>
+     <td style=background:#b2ffea>${apellido}</td>
      `
         tbody.appendChild(tr);
         

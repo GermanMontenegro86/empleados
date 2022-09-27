@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    background: #d30909a1;
+}
+
 h1{
     text-align: center;
     color: blue;
@@ -21,4 +25,22 @@ h2{
     width: 50vw;
     transform: translate(100px, 10px);
     margin-bottom: 10px;
+    background-color:  linear-gradient(90deg, rgba(14,14,14,1) 0%, rgba(16,18,16,0.8687850140056023) 50%, rgba(6,6,6,1) 100%);;
 }
+
+
+
+.form-control{
+    background-color: azure;
+}
+
+.mb-3{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn{
+    transform: translate(176px, -5px);
+    margin-top: 10px;
+}
+
